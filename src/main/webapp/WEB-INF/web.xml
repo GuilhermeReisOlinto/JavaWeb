@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>BananaBacana</display-name>
+  <servlet>
+    <description></description>
+    <display-name>cadastrarProdutoController</display-name>
+    <servlet-name>cadastrarProdutoController</servlet-name>
+    <servlet-class>banana.controller.cadastrarProdutoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadastrarProdutoController</servlet-name>
+    <url-pattern>/cadastrarProduto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>buscarProdutosController</display-name>
+    <servlet-name>buscarProdutosController</servlet-name>
+    <servlet-class>banana.controller.buscarProdutosController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buscarProdutosController</servlet-name>
+    <url-pattern>/buscarProdutosController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>excluirProdutoComtroller</display-name>
+    <servlet-name>excluirProdutoComtroller</servlet-name>
+    <servlet-class>banana.controller.excluirProdutoComtroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>excluirProdutoComtroller</servlet-name>
+    <url-pattern>/excluirProdutoComtroller</url-pattern>
+  </servlet-mapping>
+</web-app>
